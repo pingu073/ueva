@@ -1,0 +1,22 @@
+/* let nunber=13;
+let name2=4;
+console.log(nunber%2);
+console.log(nunber%name2);
+let numerito=5;
+let numerito2=26;
+document.writeln(numerito==numerito2);
+document.write("<br>");
+document.writeln(numerito!=numerito2);
+document.write("<br>");
+document.writeln(numerito<=numerito2);
+document.write("<br>");
+document.writeln(numerito>=numerito2);
+document.write("<br>");
+document.writeln(numerito<numerito2);
+document.write("<br>");
+document.writeln(numerito>numerito2); */
+let numerito="1";
+let numerito2=1;
+document.write(numerito==numerito2);
+document.write("<br>");
+document.write(numerito!==numerito2);

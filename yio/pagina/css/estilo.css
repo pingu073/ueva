@@ -1,0 +1,7 @@
+h1{color:cyan}
+h2{color:rgb(188, 29, 29)}
+#producto{color: aqua; background-color: blue;}
+#producto1{color: rgb(218, 181, 34); background-color: rgb(118, 39, 94);}
+#producto2{color: rgb(36, 242, 95); background-color: rgb(33, 50, 137);}
+#producto3{color: rgb(47, 255, 0); background-color: rgb(171, 161, 46);}
+#producto3 .interior em{color: plum;background-color: rgb(226, 89, 43);}

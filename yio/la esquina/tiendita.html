@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiendita</title><link rel="stylesheet" href="estilo.css">
+</head>
+<header>
+     <i class="fa fa-bars bars-button" aria-hidden="true" id="bars-button"></i>
+	<div class="navbar">
+        <div class="contenido">
+            <nav class="bars">
+                <ul>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="inicio.html">inicio</a></li>
+                    <li><a href="sobre mi.html">Sobre mi</a></li>
+                    <li><a href="lore de five night at freddy.html">lore de fnaf</a></li>
+                </ul>
+            </nav>
+</header>
+<body>
+   
+
+            <div class="title">
+                <a href="#">
+                	<h2>Componentes Zero</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+    	const limit_size_screen = window.matchMedia('screen and (max-width: 768px)');
+		const bars = document.querySelector('.bars');
+		const barsButton = document.querySelector('#bars-button');
+
+		function validation(event) {
+			if (event.matches) {
+				barsButton.addEventListener('click', hideShow);
+			} else {
+				barsButton.removeEventListener('click', hideShow);
+			}
+		}
+		validation(limit_size_screen);
+
+		function hideShow() {
+			if (bars.classList.contains('is-active')) {
+				bars.classList.remove('is-active');
+			} else {
+				bars.classList.add('is-active');
+			}
+		}
+    </script>
+    
+</body>
+</html>
